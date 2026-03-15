@@ -12,7 +12,7 @@ export const resumeConfig: ResumeConfig = {
       fr: 'Plus de 18 ans d\'expérience',
       en: '18+ years of experience',
     },
-    location: 'Near Lille, France',
+    location: 'Oignies, France',
   },
   seo: {
     title: 'Yoann Brieux — Senior Backend Developer',
@@ -30,8 +30,9 @@ export const resumeConfig: ResumeConfig = {
     { type: 'linkedin', label: 'Yoann Brieux', href: 'https://www.linkedin.com/in/yoannbrieux/' },
     { type: 'website', label: 'yoann.brieux.net', href: 'https://yoann.brieux.net' },
     { type: 'website', label: 'Symfony Connect', href: 'https://connect.symfony.com/profile/yoann' },
+    { type: 'github', label: 'GitHub', href: 'https://github.com/yobrx' },
     { type: 'email', label: 'yoann@brieux.net' },
-    { type: 'location', label: 'Near Lille, France' },
+    { type: 'location', label: 'Oignies, France' },
   ],
   skills: [
     {
@@ -136,8 +137,8 @@ export const resumeConfig: ResumeConfig = {
         en: '11/2023 - Present',
       },
       description: {
-        fr: 'Pilotage de la migration progressive vers Symfony depuis un code legacy, développement de nouvelles fonctionnalités IA et création d\'une API pour les applications front-end.',
-        en: 'Led the progressive migration to Symfony from a legacy codebase, built new AI-driven features, and created an API for front-end applications.',
+        fr: 'Migration progressive vers Symfony depuis un code legacy, développement de nouvelles fonctionnalités IA et création d\'une API pour les applications front-end.',
+        en: 'Migration to Symfony from a legacy codebase, built new AI-driven features, and created an API for front-end applications.',
       },
       techs: ['PHP', 'Symfony', 'MySQL', 'RabbitMQ', 'Docker', 'REST'],
       isHighlighted: true,
