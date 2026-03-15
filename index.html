@@ -3,6 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQNPDRRXPH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-FQNPDRRXPH');
+    </script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="description" content="Interactive Resume" />
     <meta name="theme-color" content="#171717" />
@@ -14,7 +23,6 @@
       <div style="max-width: 600px; margin: 4rem auto; padding: 2rem; font-family: system-ui, sans-serif; text-align: center;">
         <h1>Interactive Resume</h1>
         <p>This resume requires JavaScript to display the interactive version.</p>
-        <p><a href="/cv/resume.pdf" style="color: #1e6091;">Download the PDF version</a></p>
       </div>
     </noscript>
     <script type="module" src="/src/main.tsx"></script>
