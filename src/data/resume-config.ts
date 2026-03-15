@@ -125,8 +125,8 @@ export const resumeConfig: ResumeConfig = {
     {
       id: 'recisio-karafun-group',
       company: {
-        fr: 'Recisio / Karafun Group',
-        en: 'Recisio / Karafun Group',
+        fr: 'Recisio / KaraFun Group',
+        en: 'Recisio / KaraFun Group',
       },
       role: {
         fr: 'Développeur Backend Senior',
