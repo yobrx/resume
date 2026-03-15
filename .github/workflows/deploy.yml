@@ -32,8 +32,8 @@ jobs:
         run: |
           REPO="${{ github.event.repository.name }}"
           OWNER="${{ github.repository_owner }}"
-          # If repo is named <owner>.github.io, deploy to root
-          if [ "$REPO" = "${OWNER}.github.io" ]; then
+          # Deploy to root when using a user/org Pages repo or a custom domain.
+          if [ -f public/CNAME ] || [ "$REPO" = "${OWNER}.github.io" ]; then
             echo "path=/" >> "$GITHUB_OUTPUT"
           else
             echo "path=/${REPO}/" >> "$GITHUB_OUTPUT"
