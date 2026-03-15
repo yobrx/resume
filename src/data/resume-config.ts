@@ -140,7 +140,7 @@ export const resumeConfig: ResumeConfig = {
         fr: 'Migration progressive vers Symfony depuis un code legacy, développement de nouvelles fonctionnalités IA et création d\'une API pour les applications front-end.',
         en: 'Migration to Symfony from a legacy codebase, built new AI-driven features, and created an API for front-end applications.',
       },
-      techs: ['PHP', 'Symfony', 'MySQL', 'RabbitMQ', 'Docker', 'REST'],
+      techs: ['PHP', 'Symfony', 'MySQL', 'Docker', 'AI'],
       isHighlighted: true,
       details: {
         context: {
